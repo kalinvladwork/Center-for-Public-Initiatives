@@ -214,38 +214,6 @@ header {
 }
 
 //project
-.info-block-left {
-  padding-right: 0;
-
-  @media (min-width: 1200px) {
-    padding-right: 6rem;
-  }
-
-  @media (min-width: 1400px) {
-    padding-right: 8rem;
-  }
-
-  .u-h2 {
-    margin-bottom: 5rem;
-  }
-}
-
-.info-block-right {
-  .list-title {
-    font-size: var(--font-size);
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 30px;
-
-    @media (min-width: 768px) {
-      margin-bottom: 40px;
-    }
-
-    @media (min-width: 1400px) {
-      margin-top: 2rem;
-    }
-  }
-}
 
 //contact
 .contact {
