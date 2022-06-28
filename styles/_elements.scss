@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: var(--step);
+  height: 100%;
+  scroll-padding-top: var(--header-height);
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: 'Codec Pro', Helvetica, Arial, sans-serif;
+  background-color: var(--second-color);
+  color: var(--base-color);
+  height: 100%;
+  width: calc(100% - 12px);
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+
+hr {
+  margin: 0 10px;
+  height: 1px;
+  background-color: var(--accent-color);
+  border-bottom: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  font-size: var(--font-size);
+  font-weight: 300;
+  line-height: 150%;
+  margin-top: 0;
+  margin-bottom: var(--p-margin-bottom);
+}
+
+li {
+  line-height: 150%;
+}
+
+section {
+  margin-bottom: var(--section-margin-bottom);
+}
